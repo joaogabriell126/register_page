@@ -1,0 +1,22 @@
+{
+  "name": "register_page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx @tailwindcss/cli -i ./src/input.css -o ./public/style.css --minify"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^6.5.0",
+    "express": "^5.1.0",
+    "postcss-cli": "^11.0.1",
+    "pug": "^3.0.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.0"
+  }
+}
